@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/My-Portfolio/css/styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <h3>Dorene St.Marthe</h3>
+    <img src="/My-Portfolio/css/IMG_6058.JPG" id="myImg" alt="my image">
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+    <aside>
+        <h1>About Me</h1>
+        <h1>Projects</h1>
+        <h1>Contact</h1>
+        <h1>About</h1>
+    </aside>
+    <h3>About Me</h3>
+    <p>As a life long learner, I've explored the field of education to share the passion that I have for knowledge with others. This passion has allowed me to extend my curiosity to exploring resources that would further enhance  not only my learning but my students as well. I gravitated to software development as an early initiative to creating meaningful and intentional online resources for all students.  This initiative has since evolved during the 2020 pandemic, where online learning became the new classroom. I took this time to research and teach myself the foundations of web development, and shared this journey with the world through my YouTube, and social media platforms. I have since then built projects to further my love of learning, in addition to enrolling myself in an immersive software engineering program at General Assembly.</p>
+<script>
+    // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+</script>
+</body>
+</html>
