@@ -9,27 +9,27 @@
 </head>
 <body>
     <h3>Dorene St.Marthe</h3>
+    <div class="top">
     <img src="/My-Portfolio/css/IMG_6058.JPG" id="myImg" alt="Hello!">
     <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="img01">
         <div id="caption"></div>
       </div>
-    <aside>
-        <li>
-            <ul><a href ="#aboutMe">About Me</a></ul>
-            <ul><a href ="#skills">Skills</a></ul>
-            <ul><a href ="#projects">Projects</a></ul>
-            <ul> <a href ="#contactMe">Contact Me</a></ul>
-        </li> 
+    <aside>  
+            <p><a href ="#aboutMe" class="aboutMe">About Me</a></p>
+            <p><a href ="#skills" class="skills">Skills</a></p>
+            <p><a href ="#projects" class="projects">Projects</a></p>
+            <p> <a href ="#contactMe" class="contactMe">Contact Me</a></p>   
     </aside>
-    <div>
+    </div>
+    <div class="middle">
         <section>
             <h3 id="aboutMe">About Me</h3>
                 <p>As a life long learner, I've explored the field of education to share the passion that I have for knowledge with others. This passion has allowed me to extend my curiosity to exploring resources that would further enhance  not only my learning but my students as well. I gravitated to software development as an early initiative to creating meaningful and intentional online resources for all students.  This initiative has since evolved during the 2020 pandemic, where online learning became the new classroom. I took this time to research and teach myself the foundations of web development, and shared this journey with the world through my YouTube, and social media platforms. I have since then built projects to further my love of learning, in addition to enrolling myself in an immersive software engineering program at General Assembly.</p>
         </section>
         <section class="skills">
-            <h3 id="skills">Skills</h3>
+            <h3 id="skills" class="header">Skills</h3>
                 <h4>Languages</h4>
                     <p>HTML, EJS, CSS, Git, JavaScript, React, Python, Express.JS, MongoDB</p>
                 <h4>Dev Tools</h4>
@@ -40,11 +40,21 @@
                       <p>Git</p>
                       <p>Javascript</p>
        </section>
+       
+        <h3 id="projects" class="header">Projects</h3>
+        <section class="projects">
+            <div>
+        <a href="https://express-bookclub-app.herokuapp.com/wellread" target="_blank" id="myImg"><img src="/My-Portfolio/css/WellReadPic.png" class="projectPic" id="Book Club App" alt="Hello!"></a>
+    </div>
+    <div>
+        <a href="https://dorene-stmarthe.github.io/TicTacToe/" target="_blank" id="myImg" ><img src="/My-Portfolio/css/Tic tac toe.png" class="projectPic" id="Tic Tac Toe App" alt="Hello!"></a>
+    </div> 
+        <div>  
+            <a href="https://github.com/Dorene-StMarthe/Tindog.github.io" target="_blank"  id="myImg"><img src="/My-Portfolio/css/Tin Dog.png" class="projectPic" id="TinDog App" alt="Hello!"></a>
+        </div>
+        </section>
        <section>
-        <h3 id="projects">Projects</h3>
-       </section>
-       <section>
-        <h3 id="contactMe">Contact Me</h3>
+        <h3 id="contactMe" class="header">Contact Me</h3>
        </section>
     </div>
 <script>
@@ -68,7 +78,6 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-
 </script>
 </body>
 </html>
