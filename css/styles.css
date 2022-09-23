@@ -5,7 +5,7 @@ body {
 img {
     width: 40%;
 }
- a, h3, h2, div {
+ a, h3, h2, h1, div {
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
@@ -44,7 +44,9 @@ img {
  
  .header {
     text-align: center;
-    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
  }
  .projectPic {
     float: left;
@@ -53,6 +55,9 @@ img {
  }
 
 .skills {
+    text-align: center;
+}
+.contactMe{
     text-align: center;
 }
 /* projects */
