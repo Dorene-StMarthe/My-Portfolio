@@ -1,9 +1,9 @@
 body {
-    margin: 25px;
-    background-color:rgb(33, 31, 31) ;
+    margin:40px;
+    background-color:rgb(33, 30, 52) ;
 }
 img {
-    width: 40%;
+    width: 30%;
 }
  a, h3, h2, h1, div {
     color: white;
