@@ -6,7 +6,7 @@ class Navbar extends React.Component {
 
     
     return (
-    <nav className="flex justify-center space-x-4 bg-">
+    <nav className="flex justify-center space-x-4 bg-tahiti">
     <a href="#" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Projects</a>
     <a href="#" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Skills</a>
     <a href="#" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">About Me</a>
