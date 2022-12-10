@@ -1,7 +1,7 @@
-import React from 'react'
+import {React, Component} from 'react'
 import '../App.css'
 
-class Navbar extends React.Component {
+class Navbar extends Component {
     render() {
 
     
