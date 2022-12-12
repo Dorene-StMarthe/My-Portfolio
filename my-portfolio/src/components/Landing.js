@@ -6,7 +6,7 @@ class Landing extends Component {
         return(
             <>
             <div className= "Landing">
-                <h5>Hello, I'm Dorene</h5>
+                <h5>Hello, I'm Dorene 👋 </h5>
                 <h3>A Dog lover, Coffee enthusiast and Software Developer</h3>
             </div>
             </>
