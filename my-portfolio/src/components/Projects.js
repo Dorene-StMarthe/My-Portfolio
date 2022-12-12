@@ -6,11 +6,14 @@ class Projects extends Component {
 
     
     return (
+        <>
     <div className="Projects">
-   
+        <div></div>
     </div>
+    </>
         )
     }
 }
+
 
 export default Projects;
