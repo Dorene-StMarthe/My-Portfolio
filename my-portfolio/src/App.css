@@ -1,5 +1,4 @@
 body{background-image: linear-gradient(to right, cyan , blue);
-
 }
 
 .Navbar{
@@ -9,13 +8,12 @@ body{background-image: linear-gradient(to right, cyan , blue);
 }
 
 .Landing{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    font-size: 70px;
 }
 /*Navigation Bar*/
