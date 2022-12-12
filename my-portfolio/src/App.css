@@ -1,12 +1,12 @@
 body{background-image: linear-gradient(to right, cyan , blue);
 }
-
+/*Navigation Bar*/
 .Navbar{
     display:flex;
     justify-content: center; 
     background-color: rgba(255, 255, 255, 0.469);
 }
-
+/*Landing Component*/
 .Landing{
     margin: 0;
     position: absolute;
@@ -16,4 +16,7 @@ body{background-image: linear-gradient(to right, cyan , blue);
     color: white;
     font-size: 70px;
 }
-/*Navigation Bar*/
+
+h3{
+    font-size: 30px;
+}
