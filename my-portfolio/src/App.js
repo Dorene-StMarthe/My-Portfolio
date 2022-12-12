@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
+import Projects from './components/Projects'
 
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Landing />
+      <Projects />
     </div>
   );
 }
