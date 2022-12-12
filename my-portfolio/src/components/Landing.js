@@ -5,7 +5,7 @@ class Landing extends Component {
     render() {
         return(
             <>
-            <div className= "bg-metal-50">
+            <div className= "Landing">
                 <h5>Hello, I'm Dorene</h5>
             </div>
             </>
