@@ -1,5 +1,6 @@
 import {React, Component} from 'react';
 import '../App.css'
+import Projects from './Projects';
 
 class Landing extends Component {
     render() {
@@ -11,7 +12,9 @@ class Landing extends Component {
                 <br></br>
                 <button className= "bg-yellow hover:bg-cyan text-white font-bold py-2 px-4 border-b-4 border-silver hover:border-cyan rounded">View Projects</button>
             </div>
-            
+            <div>
+            <Projects />
+            </div>
             </>
         )
     }
