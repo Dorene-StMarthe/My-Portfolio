@@ -12,7 +12,7 @@ class Projects extends Component {
       
     <div className="ProjectContainer">
         <div className="Project">
-            <a href="https://express-bookclub-app.herokuapp.com/wellread"  >
+            <a href="https://express-wellread-app.herokuapp.com/wellread"  >
                 <img
                     src={wellread}
                     alt="wellread bookclub" />
@@ -26,7 +26,7 @@ class Projects extends Component {
             </a>
         </div>
         <div className="Project">
-            <a href="https://github.com/Dorene-StMarthe/Tindog.github.io"  >
+            <a href="https://dorene-stmarthe.github.io/Tindog.github.io/"  >
                 <img
                     src={tindog}
                     alt="wellread bookclub" />
