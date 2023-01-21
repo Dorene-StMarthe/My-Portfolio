@@ -9,7 +9,7 @@ class Projects extends Component {
     
     return (
         <>
-         <hr></hr>
+      
     <div className="ProjectContainer">
         <div className="Project">
             <a href="https://express-bookclub-app.herokuapp.com/wellread"  >
