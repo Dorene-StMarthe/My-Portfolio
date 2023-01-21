@@ -23,7 +23,14 @@ h3{
     font-size: 30px;
 }
 
-.Projects{
-    
-
+.ProjectContainer{
+    display: flex;
+}
+.Project {
+    flex: 33.33%;
+    padding: 5px;
+    border-radius: 10px;
+  }
+.Project img {
+    border-radius: 10px;
 }
