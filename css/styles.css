@@ -1,19 +1,14 @@
 body {
     background-color:rgb(2, 1, 8);
-}
-
- a, h3, h2, h1, div {
     color: rgb(245, 240, 240);
-  
- }
-
-.colored-section {
-  color: white;
 }
- .myLogo {
+
+/*Header Section*/
+
+.myLogo {
   margin: 40px;
  }
- 
+
 .nameContainer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -26,36 +21,28 @@ body {
   font-size: 30px;
 
 }
-.aboutMeIdx {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight:bold;
-  font-size: 1.5rem;
-}
-.skillsIdx {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-   
+/*Projects Section*/
+
+
+
+.colored-section {
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
 }
 
-.projectsIdx {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-style:italic;
-    
-}
-.contactMeIdx {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-   
-}
 
- .bio{
-  display:flex
+ .bio, .text{
+  margin: 40px;
+  font-weight: lighter;
+  font-size: 20px;
  }
  
  .header {
-    text-align: center;
+    margin: 40px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 60px;
 
  }
  .projectPic {
@@ -64,12 +51,7 @@ body {
     width: 33.33%;
  }
 
-.skills {
-    text-align: center;
-}
-.contactMe{
-    text-align: center;
-}
+
 /* projects */
 @media screen and (max-width: 500px) {
     .projectPic{
