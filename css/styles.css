@@ -166,7 +166,7 @@ li :focus {
       width: 100%;
     }
 }
-
+  /* Name Container */
 .nameContainer{ 
   animation-duration: 3s;
   animation-name: slidein;
