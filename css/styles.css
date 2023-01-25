@@ -74,8 +74,9 @@ p, .bio, .text{
 
 /*Skills Section*/
 .skillsContainer{
-  margin: 40px;
+ 
   overflow:hidden;
+  text-align: center;
 }
 .mySkills {
   float: left;
@@ -174,7 +175,7 @@ li :focus {
     }
 }
   /* Name Container */
-.header{ 
+.nameContainer{ 
   animation-duration: 3s;
   animation-name: slidein;
 }
