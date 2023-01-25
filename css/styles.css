@@ -70,6 +70,8 @@ p, .bio, .text{
   .bio{
     font-size: 30px;
     text-align: center;
+    font-weight:300;
+    padding: 0 95px 0 95px;
   }
 
 /*Skills Section*/
