@@ -11,7 +11,9 @@ url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&
 hr {
   max-width: 50%;
 }
-
+main{
+  background-color:rgb(2, 1, 8);
+}
 .header {
   margin: 40px;
   font-family:Arial, Helvetica, sans-serif;
@@ -56,7 +58,6 @@ hr {
 /*Projects Section*/
 .projects{
   padding-top: 200px;
-  background-color:rgb(2, 1, 8);
 }
 
 .projectPic {
@@ -73,20 +74,21 @@ p, .bio, .text{
  
  }
  .aboutMe{
-  padding-top: 350px;
-  background-color:rgb(2, 1, 8);
+  padding-top: 100px;
+  
  }
   .bio{
     font-size: 30px;
     text-align: center;
     font-weight:300;
-    padding: 0 95px 0 95px;
+    padding: 0 95px 70px 95px;
     letter-spacing: 1px;
   }
 
 /*Skills Section*/
 .skills{
-  background-color:rgb(2, 1, 8);
+  
+  padding-top: 30px;
 }
 .skillsContainer{
   overflow:hidden;
