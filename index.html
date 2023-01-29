@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS local file-->
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <!--Bootstrap Scripts-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script defer src="css/script.js"></script>
- 
+    <!-- Devicon Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <title>Dorene St.Marthe</title>
 </head>
 <body>
@@ -32,8 +29,8 @@
         <div class="nameContainer ">
             <h1 class="myName">Dorene St.Marthe </h1>
             <h3 class="myDescription">Educator Turned Full Stack Web Developer</h3>     
-        </div>
-        <hr>
+            <hr>
+        </div>        
     </section>
 <!-- Projects Section--> 
     <main>
@@ -42,27 +39,33 @@
         <div>
             <a href="https://express-wellread-app.herokuapp.com/wellread" target="_blank" id="myImg">
                 <img src="./css/images/wellread.png" class="projectPic" id="Book Club App" alt="Book Club App Photo"></a>
+                <aside>This is a bookclub app that is geared towards allowing a user to log in books read, with full functionality to edit, delete and add reviews.</aside>
+                <button>Git Hub Code</button>
+                <button>View Project</button>
+                
         </div>
         <div>
             <a href="https://dorene-stmarthe.github.io/TicTacToe/" target="_blank" id="myImg">
                 <img src="./css/images/tictactoe.png" class="projectPic" id="Tic Tac Toe App" alt="Tic Tac Toe App Photo"></a>
+                <button>Git Hub Code</button>
+                <button>View Project</button>
         </div> 
         <div>  
             <a href="https://dorene-stmarthe.github.io/Tindog.github.io/" target="_blank"  id="myImg">
                 <img src="./css/images/tindog.png" class="projectPic" id="TinDog App" alt="Tindog App Photo"></a>
-            </div>
-        
+                <button>Git Hub Code</button>
+                <button>View Project</button>
+        </div>      
     </section>
 <!-- About Me Section--> 
-    <div class="aboutMe">
+    <section class="aboutMe">
         <hr>
-        <h3 id="aboutMe"  class="header">About Me</h3>
+        <h3 id="aboutMe" class="header">About Me</h3>
         <div class="aboutContainer ">
             <p class="bio">Hi! I'm Dorene, a goal-driven and passionate developer with 2 years of experience in web development. I love to use my creativity and problem-solving skills to create websites. My interests include reading, exploring NYC and making delicious lattes. </p>
         </div>  
-        <hr>
-    </div>  
-    
+        <hr> 
+    </section>
     <section class="skills">
         <h3 id="skills" class="header">Skills</h3>
         <div class="skillsContainer">
@@ -103,17 +106,27 @@
         <p class="email">dstmarth@gmail.com</p>
     </section>
     <div class ="contactIcons">
-    <b-container class="bv-example-row">
-        <b-row>
-          <b-col><a href="https://www.youtube.com/c/DoreneCodes" target="blank"><img align="center" src ="https://img.icons8.com/color/344/youtube-play.png" height = 50 /></a></b-col>
-          <b-col><a href="https://www.linkedin.com/in/dorenestmarthe/" target="blank"><img align="center" src="https://img.icons8.com/color/344/linkedin.png" height = 50 /></a></b-col>
-          <b-col><a href="https://twitter.com/pslovedorenee" target="blank"><img align="center" src="https://user-images.githubusercontent.com/57598320/213837075-10a25404-a861-4150-bf98-17f4ebf2022d.png" height = 38 /><a href="https://twitter.com/pslovedorenee" target="blank"></a></b-col>
-          <b-col><a href="mailto: dstmarth@gmail.com" target="blank"><img align="center" src ="https://user-images.githubusercontent.com/57598320/213840019-98ff597e-bc86-47b5-babc-af2ce8249a4b.png" height = 50 /></a></b-col>
+        <b-container class="bv-example-row">
+            <b-row>
+            <b-col><a href="https://www.youtube.com/c/DoreneCodes" target="blank">
+                <img align="center" src ="https://img.icons8.com/color/344/youtube-play.png" height = 50 /></a>
+            </b-col>
+            <b-col><a href="https://www.linkedin.com/in/dorenestmarthe/" target="blank">
+                <img align="center" src="https://img.icons8.com/color/344/linkedin.png" height = 50 /></a>
+            </b-col>
+            <b-col><a href="https://github.com/Dorene-StMarthe" target="blank">
+                <img align="center" src="https://img.icons8.com/sf-black-filled/512/github.png" height = 50 /><a href="https://twitter.com/pslovedorenee" target="blank"></a>
+            </b-col>
+            <b-col><a href="https://twitter.com/pslovedorenee" target="blank">
+                <img align="center" src="https://img.icons8.com/color/512/twitter.png" height = 50 /><a href="https://twitter.com/pslovedorenee" target="blank"></a>
+            </b-col>
+            <b-col><a href="mailto: dstmarth@gmail.com" target="blank">
+                <img align="center" src ="https://user-images.githubusercontent.com/57598320/213840019-98ff597e-bc86-47b5-babc-af2ce8249a4b.png" height = 50 /></a>
+            </b-col>
         </b-row>
       </b-container>
-      </div>
-      <footer>Made with ❤️ by Dorene</footer>
     </div>
-
+      <footer>Made with ❤️ by Dorene</footer>
+</div>
 </body>
 </html>

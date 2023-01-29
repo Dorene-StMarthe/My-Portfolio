@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  
   margin: 0;
   background-image:
 url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
@@ -14,6 +14,28 @@ hr {
 main{
   background-color:rgb(2, 1, 8);
 }
+aside{
+   float: right;
+}
+button{
+ 
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 16px;;
+}
+
+li {
+    flex: 1;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;  
+}
+
 .header {
   margin: 40px;
   font-family:Arial, Helvetica, sans-serif;
@@ -46,8 +68,8 @@ main{
 .nameContainer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 70px;
-  padding-top: 150px;
+  height:100vh;
+  padding-top: 200px;
 }
 .myName{
   font-size: 90px;
@@ -56,12 +78,8 @@ main{
   font-size: 30px;
 }
 /*Projects Section*/
-.projects{
-  padding-top: 200px;
-}
-
 .projectPic {
-  border-radius: 30px;
+  border-radius: 35px;
   max-width: 50%;
   padding: 30px;
 }
@@ -119,20 +137,6 @@ p, .bio, .text{
 .contactIcons {
   text-align: center;
   padding-bottom: 40px;
-}
-footer{
-  text-align: center;
-  padding-bottom: 40px;
-  font-size: 16px;;
-}
-
-li {
-    flex: 1;
-    color: #fff;
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.5s ease-out;  
 }
 
 /* projects */
