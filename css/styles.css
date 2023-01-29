@@ -14,12 +14,6 @@ hr {
 main{
   background-color:rgb(2, 1, 8);
 }
-aside{
-   float: right;
-}
-button{
- 
-}
 
 footer{
   text-align: center;
@@ -34,6 +28,9 @@ li {
     text-align: center;
     text-decoration: none;
     transition: all 0.5s ease-out;  
+}
+button {
+  
 }
 
 .header {
@@ -80,8 +77,15 @@ li {
 /*Projects Section*/
 .projectPic {
   border-radius: 35px;
-  max-width: 50%;
+  max-width: 45%;
   padding: 30px;
+}
+
+.projectContainer {
+  display: flex;
+}
+.project{
+ flex:1;
 }
 
 /*About Me Section*/
@@ -146,7 +150,7 @@ p, .bio, .text{
     }
   }
 
-  #myImg:hover {opacity: 0.7;}
+  .projectPic:hover {opacity: 0.7;}
   
   
   
