@@ -1,9 +1,5 @@
 body {
-  
   margin: 0;
-  background-image:
-url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
-  background-size: cover;
     background-color:rgb(2, 1, 8);
     color: rgb(195, 192, 192);
 
@@ -29,8 +25,9 @@ li {
     text-decoration: none;
     transition: all 0.5s ease-out;  
 }
-button {
-  
+i {
+  font-size: 60px;
+  padding: 15px;
 }
 
 .header {
@@ -43,6 +40,7 @@ button {
 /*Header Section*/
 .nav{
   margin-right:40px;
+  background-color: transparent;
 }
 
  .myLogo {
@@ -67,6 +65,9 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   height:100vh;
   padding-top: 200px;
+  background-image:
+url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+  background-size: cover;
 }
 .myName{
   font-size: 90px;
@@ -75,17 +76,25 @@ button {
   font-size: 30px;
 }
 /*Projects Section*/
+
 .projectPic {
   border-radius: 35px;
-  max-width: 45%;
+  max-width: 100%;
   padding: 30px;
 }
 
 .projectContainer {
   display: flex;
+  align-items: center;
+  padding: 40px;
 }
 .project{
  flex:1;
+ max-width: 50%;
+ text-align: center;
+}
+aside{
+  padding: 70px;
 }
 
 /*About Me Section*/
@@ -151,7 +160,9 @@ p, .bio, .text{
   }
 
   .projectPic:hover {opacity: 0.7;}
-  
+  button:hover {
+    cursor: pointer;
+  }
   
   
   /* Add Animation to name container*/
