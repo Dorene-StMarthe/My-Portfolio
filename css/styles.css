@@ -235,7 +235,6 @@ aside{
    
     
 .projectPic {
- 
   max-width: 100%;
   padding: 30px;
 }
@@ -243,7 +242,7 @@ aside{
 .projectContainer {
 display:  inline-block;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
 }
 .project{
 flex-basis: content;
