@@ -34,9 +34,14 @@ i {
   font-size: 60px;
   padding: 15px;
 }
-
+h4{
+  float: left;
+  color:rgb(167, 164, 164)
+}
 h5{
   font-size: 1000px;
+  color:rgb(167, 164, 164)
+
 }
 p{
   color: rgba(185, 183, 183, 0.893);
@@ -107,6 +112,7 @@ url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&
   display: flex;
   align-items: center;
   padding: 40px;
+  padding-top: 2px;
 }
 .project{
  flex:1;
