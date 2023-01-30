@@ -203,7 +203,7 @@ aside{
 
 
 @media (min-width: 768px) {
-  .button-59 {
+  button {
     min-width: 170px;
   }
 } Add Animation to name container*/
@@ -218,34 +218,34 @@ aside{
   }
   
   /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-    .projectPic {
-      border-radius: 35px;
-      max-width: 100%;
-      padding: 30px;
-    }
+  @media only screen and (max-width: 800px){
+   
     
-    .projectContainer {
-      display: flex;
-      align-items: center;
-      padding: 40px;
-    }
-    .project{
-     flex:1;
-     max-width: 50%;
-     text-align: center;
-    }
-    aside{
-      padding: 70px;
-      font-weight:150;
-      font-size: 15px;
-    }
-    
+.projectPic {
+ 
+  max-width: 100%;
+  padding: 30px;
+}
+
+.projectContainer {
+display:  inline-block;
+  align-items: center;
+  padding: 40px;
+}
+.project{
+flex-basis: content;
+ max-width: 100%;
+}
+aside{
+  padding: 40px;
+  font-weight:150;
+  font-size: 15px;
+}
 
 
+    i{
+      font-size:  30px;
+    }
 
     p.bio {
       margin: 0;
