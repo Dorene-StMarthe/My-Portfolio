@@ -171,24 +171,24 @@ aside{
   }
   button:hover {
     cursor: pointer;
-
+    text-decoration: none;
   }
-  button{
+  button {
   display: inline-block;
   outline: 0;
   text-align: center;
   cursor: pointer;
   padding: 17px 30px;
   border: 0;
-  color: black;
   font-size: 17.5px;
   border: 2px solid transparent;
   border-color: rgba(255, 253, 253, 0.902);
-  color: rgba(255, 253, 253, 0.902);
+  color: rgba(255, 253, 253, 0.902) !important;
   background: transparent;
   font-weight: 800;
   line-height: 30px;
   transition: background,color .6s ease-in-out;
+  text-decoration:none;
   }
   button:hover {
     background-color: rgba(255, 253, 253, 0.902);
