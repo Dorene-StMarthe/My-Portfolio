@@ -19,12 +19,14 @@ footer{
 
 li {
     flex: 1;
-    color: #fff;
+    color: #fff; 
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
-    transition: all 0.5s ease-out;  
+    font-size: 22px;  
+    transition: all 0.5s ease-out;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -54,6 +56,7 @@ p{
 .nav{
   margin-right:40px;
   background-color: transparent;
+  
 }
 
  .myLogo {
@@ -61,7 +64,7 @@ p{
   flex: 1;
   color: #fff;
   border: 1px solid;
-  padding: 0.5rem;
+  padding: .5rem;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease-out;
@@ -81,7 +84,11 @@ p{
   background-image:
 url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
   background-size: cover;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
+
+
 .myName{
   font-size: 90px;
 }
@@ -255,15 +262,17 @@ aside{
     .aboutMe{
       padding-top: 50px;
      }
-     
+     .nameContainer {
+      animation-name:none;
+    }
+    nav {
+      padding: 20px;
+      animation-duration: 3s;
+      animation-name: slidein;
+    }
 
 }
-  /* Name Container */
-.nameContainer{ 
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
+ 
 @keyframes slidein {
   from {
     margin-bottom: 100%;
