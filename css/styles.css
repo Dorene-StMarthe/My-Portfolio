@@ -1,7 +1,7 @@
 body {
   margin: 0;
     background-color:rgb(2, 1, 8);
-    color: rgb(195, 192, 192);
+    color: rgba(255, 253, 253, 0.902);
 
 }
 hr {
@@ -182,15 +182,15 @@ aside{
   color: black;
   font-size: 17.5px;
   border: 2px solid transparent;
-  border-color: rgb(195, 192, 192);
-  color: rgb(195, 192, 192);
+  border-color: rgba(255, 253, 253, 0.902);
+  color: rgba(255, 253, 253, 0.902);
   background: transparent;
   font-weight: 800;
   line-height: 30px;
   transition: background,color .6s ease-in-out;
   }
   button:hover {
-      background-color:rgb(195, 192, 192);;
+    background-color: rgba(255, 253, 253, 0.902);
       color: black;
       transition: .7s ease-in-out;
   }
