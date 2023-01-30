@@ -30,6 +30,15 @@ i {
   padding: 15px;
 }
 
+h5{
+  font-size: 1000px;
+}
+p{
+  color: rgba(185, 183, 183, 0.893);
+  font-weight: 100;
+  font-size: 20px;;
+}
+
 .header {
   margin: 40px;
   font-family:Arial, Helvetica, sans-serif;
@@ -95,30 +104,24 @@ url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&
 }
 aside{
   padding: 70px;
+  font-weight:150;
+  font-size: 15px;
 }
 
 /*About Me Section*/
-p, .bio, .text{
-  margin: 40px;
-  font-weight: lighter;
-  font-size: 20px;
- 
- }
  .aboutMe{
   padding-top: 100px;
-  
  }
   .bio{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    font-weight:300;
-    padding: 0 95px 70px 95px;
+    font-weight:200;
+    padding: 0 200px 70px 200px;
     letter-spacing: 1px;
   }
 
 /*Skills Section*/
 .skills{
-  
   padding-top: 30px;
 }
 .skillsContainer{
