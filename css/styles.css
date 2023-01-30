@@ -144,8 +144,9 @@ aside{
   background-color: white;
 }
 .email{
-  margin-left: 90px;
-  font-size: 40px;
+  margin-left: 85px;
+  font-size: 30px;
+  color: black;
 }
 
 .bottom {
@@ -216,17 +217,41 @@ aside{
     .modal-content {
       width: 100%;
     }
+    .projectPic {
+      border-radius: 35px;
+      max-width: 100%;
+      padding: 30px;
+    }
+    
+    .projectContainer {
+      display: flex;
+      align-items: center;
+      padding: 40px;
+    }
+    .project{
+     flex:1;
+     max-width: 50%;
+     text-align: center;
+    }
+    aside{
+      padding: 70px;
+      font-weight:150;
+      font-size: 15px;
+    }
+    
+
+
+
     p.bio {
       margin: 0;
       padding: 10px;
       font-size: 25px;
     }
     .aboutMe{
-      padding-top: 850px;
+      padding-top: 50px;
      }
-     .projects{
-      padding-top: 0px;
-    }
+     
+    
 
 }
   /* Name Container */
