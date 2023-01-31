@@ -122,7 +122,7 @@ url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&
 aside{
   padding: 70px;
   font-weight:150;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /*About Me Section*/
@@ -130,11 +130,12 @@ aside{
   padding-top: 100px;
  }
   .bio{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-weight:200;
     padding: 0 200px 70px 200px;
     letter-spacing: 1px;
+    
   }
 
 /*Skills Section*/
