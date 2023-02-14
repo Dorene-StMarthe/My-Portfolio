@@ -1,30 +1,29 @@
 body {
   margin: 0;
-    background-color:rgb(2, 1, 8);
-    color: rgba(255, 253, 253, 0.902);
-
+  background-color: rgb(2, 1, 8);
+  color: rgba(255, 253, 253, 0.902);
 }
 hr {
   max-width: 50%;
 }
-main{
-  background-color:rgb(2, 1, 8);
+main {
+  background-color: rgb(2, 1, 8);
 }
 
-footer{
+footer {
   text-align: center;
   padding-bottom: 40px;
-  font-size: 16px;;
+  font-size: 16px;
 }
 
 li {
-    flex: 1;
-    color: #fff; 
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: none;
-    font-size: 22px;  
-    transition: all 0.5s ease-out;
+  flex: 1;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  transition: all 0.5s ease-out;
 }
 
 nav a:hover {
@@ -34,42 +33,38 @@ i {
   font-size: 60px;
   padding: 15px;
 }
-h4{
- 
-  color:rgb(167, 164, 164)
+h4 {
+  color: rgb(167, 164, 164);
 }
-h5{
+h5 {
   font-size: 1000px;
-  color:rgb(167, 164, 164)
-
+  color: rgb(167, 164, 164);
 }
-p{
+p {
   color: rgba(185, 183, 183, 0.893);
   font-weight: 100;
-  font-size: 20px;;
+  font-size: 20px;
 }
 
 .header {
   margin: 40px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
   font-weight: bold;
 }
 
-
 /*Header Section*/
-.nav{
-  margin-right:40px;
+.nav {
+  margin-right: 40px;
   background-color: transparent;
-  
 }
 
- .myLogo {
+.myLogo {
   margin: 40px;
   flex: 1;
   color: #fff;
   border: 1px solid;
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease-out;
@@ -84,20 +79,18 @@ p{
 .nameContainer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  height:100vh;
+  height: 100vh;
   padding-top: 200px;
-  background-image:
-url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+  background-image: url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
   background-size: cover;
   animation-duration: 3s;
   animation-name: slidein;
 }
 
-
-.myName{
+.myName {
   font-size: 90px;
 }
-.myDescription{
+.myDescription {
   font-size: 30px;
 }
 /*Projects Section*/
@@ -114,38 +107,36 @@ url(https://images.unsplash.com/photo-1673063609912-a004549c6732?ixlib=rb-4.0.3&
   padding: 40px;
   padding-top: 2px;
 }
-.project{
- flex:1;
- max-width: 50%;
- text-align: center;
+.project {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
 }
-aside{
+aside {
   padding: 70px;
-  font-weight:150;
+  font-weight: 150;
   font-size: 20px;
 }
 
 /*About Me Section*/
- .aboutMe{
+.aboutMe {
   padding-top: 100px;
- }
-  .bio{
-    font-size: 25px;
-    text-align: center;
-    font-weight:200;
-    padding: 0 200px 70px 200px;
-    letter-spacing: 1px;
-    
-  }
+}
+.bio {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 200;
+  padding: 0 200px 70px 200px;
+  letter-spacing: 1px;
+}
 
 /*Skills Section*/
-.skills{
+.skills {
   padding-top: 30px;
 }
-.skillsContainer{
-  overflow:hidden;
+.skillsContainer {
+  overflow: hidden;
   text-align: center;
- 
 }
 .mySkills {
   float: left;
@@ -154,11 +145,11 @@ aside{
 }
 
 /*Contact Me Section*/
-.contactMe{
+.contactMe {
   padding-top: 50px;
   background-color: white;
 }
-.email{
+.email {
   margin-left: 85px;
   font-size: 30px;
   color: black;
@@ -166,7 +157,7 @@ aside{
 
 .bottom {
   background-color: white;
-  overflow:hidden;
+  overflow: hidden;
   color: black;
 }
 .contactIcons {
@@ -176,24 +167,23 @@ aside{
 
 /* projects */
 @media screen and (max-width: 500px) {
-    .projectPic{
-      width: 100%;
-    }
+  .projectPic {
+    width: 100%;
   }
+}
 
-  .projectPic:hover{
-    opacity: 0.7;
-  }
-  button a{
-    color: #fff;
-  
-  }
+.projectPic:hover {
+  opacity: 0.7;
+}
+button a {
+  color: #fff;
+}
 
-  button a:hover {
-    text-decoration: none;
-    color:black;;
-  }
-  button {
+button a:hover {
+  text-decoration: none;
+  color: black;
+}
+button {
   display: inline-block;
   outline: 0;
   text-align: center;
@@ -207,78 +197,77 @@ aside{
   background: transparent;
   font-weight: 800;
   line-height: 30px;
-  transition: background,color .6s ease-in-out;
-  }
-  button:hover {
-    background-color: rgba(255, 253, 253, 0.902);
-      color: black;
-      transition: .7s ease-in-out;
-  }
-
+  transition: background, color 0.6s ease-in-out;
+}
+button:hover {
+  background-color: rgba(255, 253, 253, 0.902);
+  color: black;
+  transition: 0.7s ease-in-out;
+}
 
 @media (min-width: 768px) {
   button {
     min-width: 170px;
   }
-} Add Animation to name container*/
-  .modal-content{  
-    animation-name: zoom;
-    animation-duration: 0.6s;
+}
+Add Animation to name container*/ .modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.1);
   }
-  
-  @keyframes zoom {
-    from {transform: scale(0.1)} 
-    to {transform: scale(1)}
+  to {
+    transform: scale(1);
   }
-  
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 800px){
-   
-    
-.projectPic {
-  max-width: 100%;
-  padding: 30px;
 }
 
-.projectContainer {
-display:  inline-block;
-  align-items: center;
-  padding: 20px;
-}
-.project{
-flex-basis: content;
- max-width: 100%;
-}
-aside{
-  padding: 30px;
-  font-weight:150;
-  font-size: 20px;
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 800px) {
+  .projectPic {
+    max-width: 100%;
+    padding: 30px;
+  }
+
+  .projectContainer {
+    display: inline-block;
+    align-items: center;
+    padding: 20px;
+  }
+  .project {
+    flex-basis: content;
+    max-width: 100%;
+  }
+  aside {
+    padding: 30px;
+    font-weight: 150;
+    font-size: 20px;
+  }
+
+  i {
+    font-size: 30px;
+  }
+
+  p.bio {
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+  }
+  .aboutMe {
+    padding-top: 50px;
+  }
+  .nameContainer {
+    animation-name: none;
+  }
+  nav {
+    padding: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
 }
 
-
-    i{
-      font-size:  30px;
-    }
-
-    p.bio {
-      margin: 0;
-      padding: 10px;
-      font-size: 25px;
-    }
-    .aboutMe{
-      padding-top: 50px;
-     }
-     .nameContainer {
-      animation-name:none;
-    }
-    nav {
-      padding: 20px;
-      animation-duration: 3s;
-      animation-name: slidein;
-    }
-
-}
- 
 @keyframes slidein {
   from {
     margin-bottom: 100%;
@@ -290,6 +279,3 @@ aside{
     width: 100%;
   }
 }
-
-
-
