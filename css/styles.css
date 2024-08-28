@@ -57,6 +57,7 @@ p {
 .nav {
   margin-right: 40px;
   background-color: transparent;
+
 }
 
 .myLogo {
@@ -214,6 +215,10 @@ button:hover {
   color: black;
   transition: 0.7s ease-in-out;
 }
+.emojify::before {
+  content: '😎 🤓';
+}
+
 
 @media (min-width: 768px) {
   button {
@@ -289,3 +294,7 @@ Add Animation to name container*/ .modal-content {
     width: 100%;
   }
 }
+
+
+
+
