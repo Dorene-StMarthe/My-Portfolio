@@ -1,31 +1,23 @@
 body {
-  margin: 0;
   background-color: rgb(2, 1, 8);
   color: rgba(255, 253, 253, 0.902);
+  padding: 1em 0;
 }
 hr {
   max-width: 50%;
 }
-main {
-  background-color: rgb(2, 1, 8);
-}
-
 footer {
   text-align: center;
   padding-bottom: 40px;
   font-size: 16px;
 }
-
 li {
   flex: 1;
-  color: #fff;
-  padding: 0.5rem;
   text-align: center;
   text-decoration: none;
   font-size: 22px;
   transition: all 0.5s ease-out;
 }
-
 nav a:hover {
   text-decoration: underline;
 }
@@ -33,12 +25,11 @@ i {
   font-size: 60px;
   padding: 15px;
 }
-h4 {
+h4, h5 {
   color: rgb(167, 164, 164);
 }
 h5 {
   font-size: 1000px;
-  color: rgb(167, 164, 164);
 }
 p {
   color: rgba(185, 183, 183, 0.893);
@@ -76,9 +67,7 @@ p {
   background-color: #fff;
   color: #333;
 }
-.themeContainer{
-  
-}
+
 .nameContainer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -296,6 +285,6 @@ Add Animation to name container*/ .modal-content {
     width: 100%;
   }
 }
-
-
-
+.dark{
+  background-color: whitesmoke;
+}
