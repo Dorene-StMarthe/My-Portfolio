@@ -76,7 +76,9 @@ p {
   background-color: #fff;
   color: #333;
 }
-
+.themeContainer{
+  
+}
 .nameContainer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -294,7 +296,6 @@ Add Animation to name container*/ .modal-content {
     width: 100%;
   }
 }
-
 
 
 
