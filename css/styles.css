@@ -287,4 +287,9 @@ Add Animation to name container*/ .modal-content {
 }
 .dark{
   background-color: whitesmoke;
+  color: black !important;
 }
+ h4, h5, p, .dark{
+color: black !important;
+}
+
