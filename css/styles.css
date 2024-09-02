@@ -61,6 +61,14 @@ p {
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
+.themeToggle{
+  margin: 20px;
+  border: 1px solid;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
 
 .myLogo:hover,
 .myLogo:focus {
@@ -294,13 +302,28 @@ Add Animation to name container*/ .modal-content {
 
   background-image: url(https://media.istockphoto.com/id/1429485637/photo/abstract-blurred-modern-interior-domestic-office-with-electronic-lamp-light-of-background-for.jpg?s=612x612&w=0&k=20&c=RobNviqQVEcvZBRGmviYO2tt-BTMPIkJZw6GdZdFG0Q=);
 }
-h4, h5, p, .dark{
-  color: black;
-}
-.dark a{
+
+.dark a {
   color: black;
 }
 .dark, button a{
   color: black;
-  
+}
+
+.dark h5{
+  color: black !important;
+}
+.dark h4{
+  color: black;
+}
+.dark button{
+  color: black;
+  border-color: black;
+}
+.dark button:hover{
+  background-color: black;
+  color: white;
+}
+.dark p{
+  color: black;
 }
