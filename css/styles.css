@@ -43,12 +43,10 @@ p {
   font-size: 60px;
   font-weight: bold;
 }
-
 /*Header Section*/
 .nav {
   background-color: transparent;
 }
-
 .myLogo {
   margin: 40px;
   flex: 1;
@@ -59,7 +57,6 @@ p {
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
-
 .themeToggle{
   margin-right: 40px;
   font-weight: 400;
@@ -67,14 +64,12 @@ p {
   border: 1px solid;
   padding: 0.5rem;
   transition: all 0.5s ease-out;
-
 }
 .myLogo:hover,
 .myLogo:focus {
   background-color: #fff;
   color: #333;
 }
-
 .nameContainer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -85,7 +80,6 @@ p {
   animation-duration: 3s;
   animation-name: slidein;
 }
-
 .myName {
   font-size: 90px;
 }
@@ -110,7 +104,7 @@ p {
   flex: 1;
   max-width: 50%;
   text-align: center;
-  margin-left: 100px;
+  margin: 0 70px 0 80px;
 }
 aside {
   padding: 70px;
@@ -128,6 +122,7 @@ aside {
   font-weight: 200;
   padding: 0 200px 70px 200px;
   letter-spacing: 1px;
+  margin: 0 60px 0 60px;
 }
 
 /*Skills Section*/
