@@ -1,31 +1,23 @@
 body {
-  margin: 0;
   background-color: rgb(2, 1, 8);
   color: rgba(255, 253, 253, 0.902);
+  padding: 1em 0;
 }
 hr {
   max-width: 50%;
 }
-main {
-  background-color: rgb(2, 1, 8);
-}
-
 footer {
   text-align: center;
   padding-bottom: 40px;
   font-size: 16px;
 }
-
 li {
   flex: 1;
-  color: #fff;
-  padding: 0.5rem;
   text-align: center;
   text-decoration: none;
   font-size: 22px;
   transition: all 0.5s ease-out;
 }
-
 nav a:hover {
   text-decoration: underline;
 }
@@ -33,12 +25,11 @@ i {
   font-size: 60px;
   padding: 15px;
 }
-h4 {
+h4, h5 {
   color: rgb(167, 164, 164);
 }
 h5 {
   font-size: 1000px;
-  color: rgb(167, 164, 164);
 }
 p {
   color: rgba(185, 183, 183, 0.893);
@@ -47,18 +38,15 @@ p {
 }
 
 .header {
-  margin: 40px;
+  margin-left: 90px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
   font-weight: bold;
 }
-
 /*Header Section*/
 .nav {
-  margin-right: 40px;
   background-color: transparent;
 }
-
 .myLogo {
   margin: 40px;
   flex: 1;
@@ -69,13 +57,19 @@ p {
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
-
+.themeToggle{
+  margin-right: 40px;
+  font-weight: 400;
+  color: #fff;
+  border: 1px solid;
+  padding: 0.5rem;
+  transition: all 0.5s ease-out;
+}
 .myLogo:hover,
 .myLogo:focus {
   background-color: #fff;
   color: #333;
 }
-
 .nameContainer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +80,6 @@ p {
   animation-duration: 3s;
   animation-name: slidein;
 }
-
 .myName {
   font-size: 90px;
 }
@@ -111,6 +104,7 @@ p {
   flex: 1;
   max-width: 50%;
   text-align: center;
+  margin: 0 70px 0 80px;
 }
 aside {
   padding: 70px;
@@ -128,6 +122,7 @@ aside {
   font-weight: 200;
   padding: 0 200px 70px 200px;
   letter-spacing: 1px;
+  margin: 0 60px 0 60px;
 }
 
 /*Skills Section*/
@@ -146,12 +141,21 @@ aside {
 
 /*Contact Me Section*/
 .contactMe {
-  padding-top: 50px;
-  background-color: white;
+  padding-top: 40px;
 }
-.email {
-  margin-left: 85px;
+.contactParagraph {
+  color: black;
   font-size: 30px;
+  text-align: center;
+  font-weight: 200;
+  padding: 0 200px 30px 200px;
+  letter-spacing: 1px;
+}
+
+.email{
+  margin-left: 140px;
+  font-size: 30px;
+  font-weight: 500;
   color: black;
 }
 
@@ -159,6 +163,7 @@ aside {
   background-color: white;
   overflow: hidden;
   color: black;
+ 
 }
 .contactIcons {
   text-align: center;
@@ -204,6 +209,10 @@ button:hover {
   color: black;
   transition: 0.7s ease-in-out;
 }
+.emojify::before {
+  content: '😎 🤓';
+}
+
 
 @media (min-width: 768px) {
   button {
@@ -278,4 +287,43 @@ Add Animation to name container*/ .modal-content {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+.dark{
+  background-color: whitesmoke;
+  color: black;
+}
+.dark .nameContainer {
+
+  background-image: url(https://media.istockphoto.com/id/1429485637/photo/abstract-blurred-modern-interior-domestic-office-with-electronic-lamp-light-of-background-for.jpg?s=612x612&w=0&k=20&c=RobNviqQVEcvZBRGmviYO2tt-BTMPIkJZw6GdZdFG0Q=);
+}
+
+.dark a {
+  color: black;
+}
+.dark, button a{
+  color: black;
+}
+
+.dark h5{
+  color: black !important;
+}
+.dark h4{
+  color: black;
+}
+.dark button{
+  color: black;
+  border-color: black;
+  font-size: 17.5px;
+  font-weight: 300;
+}
+.dark button:hover{
+  background-color: black;
+  color: white;
+}
+.dark p{
+  color: black;
+}
+.dark .bottom{
+  background-color: #bdd0d9;
 }

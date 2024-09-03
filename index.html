@@ -9,7 +9,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
-    <script defer src="css/script.js"></script>
+    <script defer src="script.js"></script>
     <!-- Devicon Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <title>Dorene St.Marthe</title>
@@ -18,12 +18,14 @@
 <!-- Nav Bar -->
     <nav class="transparent">
         <a href ="#aboutMe" class="myLogo">Dorene St.Marthe</a>
-            <ul class="right nav">
+            <ul class="right">
+                <button class="themeToggle">View in <span class= "themeName">light</span> mode</button>
                 <li><a href ="#skills">Skills</a></li>
                 <li><a href ="#projects">Projects</a></li>
                 <li><a href ="#contactMe">Contact Me</a></li>
             </ul>
     </nav>
+    
 <!-- Name Section -->  
     <section class="top" id="title">
         <div class="nameContainer ">
@@ -95,7 +97,7 @@
             </div>
             <div class="project">
                 <h5>Description</h5>
-                <aside> Get ready for some classic fun with this Rock Paper Scissors game! This timeless showdown lets you compete against the computer by choosing rock, paper, or scissors in a quick and playful battle. The object is simple: select a gesture that beats your opponent's choice- rock crushes scissors, scissors cut paper, and paper covers rock. Dive in and enjoy the excitement of outsmarting your rivals in this five round easy-to play, endlessly entertaining game! </aside>
+                <aside> Enjoy a classic showdown with this Rock Paper Scissors game! Compete against the computer by choosing rock, paper, or scissors. Outsmart your opponent in this quick, five-round, easy-to-play, and endlessly entertaining battle!</aside>
                 <i class="devicon-html5-plain-wordmark"></i>
                 <i class="devicon-bootstrap-plain-wordmark"></i>
             </div>
@@ -149,6 +151,7 @@
     <section class ="contactMe">
         <h3 id="contactMe" class="header">Let's Get In Touch!</h3>
         <p class="email">dstmarth@gmail.com</p>
+        <h4 class="contactParagraph">Curious? Intrigued? Let’s chat! Whether you’re looking to build a standout website or just want to swap latte recipes, I’m always up for a good conversation. Hit that contact button, and let’s make some digital magic happen!</h4>
     </section>
     <div class ="contactIcons">
         <b-container class="bv-example-row">
@@ -171,7 +174,8 @@
         </b-row>
       </b-container>
     </div>
-      <footer>  <small>&copy; Copyright 2023, Dorene St.Marthe ❤️</small>
+      <footer>  
+        <small>&copy; Copyright 2023, Dorene St.Marthe ❤️ <span class="emojify"></span></small>
       </footer>
 </div>
 </body>
