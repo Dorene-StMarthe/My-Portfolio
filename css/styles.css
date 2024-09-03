@@ -324,3 +324,6 @@ Add Animation to name container*/ .modal-content {
 .dark p{
   color: black;
 }
+.dark .bottom{
+  background-color: #bdd0d9;
+}
