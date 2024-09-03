@@ -44,9 +44,7 @@ p {
   font-weight: bold;
 }
 /*Header Section*/
-.nav {
-  background-color: transparent;
-}
+
 .myLogo {
   margin: 40px;
   flex: 1;
@@ -274,7 +272,10 @@ Add Animation to name container*/ .modal-content {
     padding: 20px;
     animation-duration: 3s;
     animation-name: slidein;
+    display: none;
+
   }
+  
 }
 
 @keyframes slidein {
@@ -326,4 +327,37 @@ Add Animation to name container*/ .modal-content {
 }
 .dark .bottom{
   background-color: #bdd0d9;
+}
+
+.hamburger{
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: rgba(255, 253, 253, 0.902);
+  cursor: pointer;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hamburger {
+   display:inline;
+   margin-left: 150px;
+  }
+  nav.transparent ul.right {
+    flex-direction:column;
+    width: 40%;
+    display: none; /* Hide the menu by default */
+  }
+
+  nav.transparent ul.right.active {
+
+    display:flex; /* Show the menu when active */
+  }
+.top{
+  margin-top: 50px;
+}
+
+  button.themeToggle {
+    display: none;
+  }
 }

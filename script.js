@@ -7,3 +7,8 @@ function setTheme() {
   }
   
   document.querySelector('.themeToggle').addEventListener('click', setTheme)
+
+  document.querySelector('.hamburger').addEventListener('click', function() {
+    document.querySelector('nav.transparent ul.right').classList.toggle('active');
+  });
+  
