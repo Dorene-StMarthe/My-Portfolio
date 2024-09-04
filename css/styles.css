@@ -105,7 +105,7 @@ p {
   margin: 0 70px 0 80px;
 }
 aside {
-  padding: 70px;
+  padding: 60px;
   font-weight: 150;
   font-size: 20px;
 }
@@ -249,7 +249,7 @@ Add Animation to name container*/ .modal-content {
   }
   aside {
     display: none;
-    padding: 30px;
+    padding: 0px;
     font-weight: 150;
     font-size: 20px;
   }
