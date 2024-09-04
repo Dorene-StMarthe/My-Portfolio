@@ -261,7 +261,7 @@ Add Animation to name container*/ .modal-content {
   p {
     margin: 0;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
   }
   .aboutMe {
     padding-top: 50px;
@@ -280,7 +280,10 @@ Add Animation to name container*/ .modal-content {
     margin: 0;
     padding: 30px;
   }
-  
+  .email{
+    font-size: 18px;
+  }
+ 
 }
 
 @keyframes slidein {
@@ -346,11 +349,12 @@ Add Animation to name container*/ .modal-content {
 /* Responsive styles */
 @media (max-width: 768px) {
   .hamburger {
-   display: inline;
+   display:inline;
+  
   }
   nav.transparent ul.right {
     flex-direction:column;
-    width: 30%;
+    width: 40%;
     display: none; /* Hide the menu by default */
   }
 
