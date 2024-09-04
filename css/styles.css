@@ -248,6 +248,7 @@ Add Animation to name container*/ .modal-content {
     max-width: 100%;
   }
   aside {
+    display: none;
     padding: 30px;
     font-weight: 150;
     font-size: 20px;
@@ -257,10 +258,10 @@ Add Animation to name container*/ .modal-content {
     font-size: 30px;
   }
 
-  p.bio {
+  p {
     margin: 0;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .aboutMe {
     padding-top: 50px;
@@ -273,9 +274,12 @@ Add Animation to name container*/ .modal-content {
     animation-duration: 3s;
     animation-name: slidein;
     display: none;
-
   }
-  
+  .bio{
+    font-size: 18px;
+    margin: 0;
+    padding: 30px;
+  }
   
 }
 
@@ -337,16 +341,16 @@ Add Animation to name container*/ .modal-content {
   border: none;
   color: rgba(255, 253, 253, 0.902);
   cursor: pointer;
+  float: right;
 }
 /* Responsive styles */
 @media (max-width: 768px) {
   .hamburger {
-   display:inline;
-   margin-left: 150px;
+   display: inline;
   }
   nav.transparent ul.right {
     flex-direction:column;
-    width: 40%;
+    width: 30%;
     display: none; /* Hide the menu by default */
   }
 
